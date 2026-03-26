@@ -49,7 +49,7 @@ export const products: Product[] = [
     name: "Artisan Chocolate Truffle Box",
     price: 4500.00,
     description: "Assortment of handmade dark chocolate truffles infused with seasonal flavors.",
-    image: "https://picsum.photos/seed/giftshop-choc/800/800",
+    image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?q=80&w=800&auto=format&fit=crop",
     category: "food",
     featured: true
   },
