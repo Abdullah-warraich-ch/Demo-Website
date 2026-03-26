@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="container header-container">
           {/* Logo */}
           <Link href="/" className="logo" onClick={() => setMobileMenuOpen(false)}>
-            <div className="logo-icon" style={{ background: 'black', boxShadow: 'none', borderRadius: '4px' }}>
+            <div className="logo-icon" style={{ background: 'var(--accent)', boxShadow: 'none', borderRadius: '6px' }}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 12V8H4v4"/><rect width="18" height="12" x="3" y="8" rx="2"/><path d="M12 22V8"/><path d="M7 3h5c1.1 0 2 .9 2 2a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2c0-1.1.9-2 2-2Z"/><path d="M12 3h5c1.1 0 2 .9 2 2a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2c0-1.1.9-2 2-2Z"/></svg>
             </div>
             <span style={{ fontWeight: 900, textTransform: 'uppercase', fontSize: '1.25rem', letterSpacing: '-0.06em' }}>GiftAura</span>
@@ -58,7 +58,7 @@ export default function Navbar() {
 
           {/* Actions */}
           <div className="nav-actions">
-            <Link href="/cart" className="cart-btn" style={{ background: 'black', color: '#fff', borderRadius: '6px' }} onClick={() => setMobileMenuOpen(false)}>
+            <Link href="/cart" className="cart-btn" style={{ background: 'var(--accent)', color: '#fff', borderRadius: '8px' }} onClick={() => setMobileMenuOpen(false)}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
                 <line x1="3" y1="6" x2="21" y2="6"/>
